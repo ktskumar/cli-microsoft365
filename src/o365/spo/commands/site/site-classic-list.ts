@@ -26,7 +26,7 @@ class SiteClassicListCommand extends SpoCommand {
   }
 
   public get description(): string {
-    return 'Lists sites of the given type';
+    return '(deprecated. Use spo site `list` instead)Lists sites of the given type';
   }
 
   public getTelemetryProperties(args: CommandArgs): any {
